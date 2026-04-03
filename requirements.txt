@@ -1,0 +1,27 @@
+# ── Core UI ──────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── LLM / API ────────────────────────────────────────────────────────────────
+openai>=1.30.0
+requests>=2.31.0
+
+# ── Data Science ─────────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# ── Visualization ────────────────────────────────────────────────────────────
+plotly>=5.18.0
+kaleido>=0.2.1          # Plotly static image export (SVG/PDF/PNG)
+pillow>=10.0.0
+
+# ── Chemistry / Molecular ────────────────────────────────────────────────────
+rdkit>=2023.9.1          # pip install rdkit
+
+# ── Database ─────────────────────────────────────────────────────────────────
+# sqlite3 is in Python stdlib – no pip install needed
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+openpyxl>=3.1.0          # Excel read/write
+xlrd>=2.0.1              # Legacy .xls support
