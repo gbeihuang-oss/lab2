@@ -17,7 +17,7 @@ kaleido>=0.2.1
 pillow>=10.0.0
 
 # ── Chemistry / Molecular ────────────────────────────────────────────────────
-rdkit>=2023.9.1
+rdkit-pypi
 
 # ── Database ─────────────────────────────────────────────────────────────────
 # sqlite3 is in Python stdlib – no pip install needed
