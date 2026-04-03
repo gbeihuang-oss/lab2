@@ -18,7 +18,6 @@ pillow>=10.0.0
 
 # ── Chemistry / Molecular ────────────────────────────────────────────────────
 rdkit-pypi
-streamlit
 
 # ── Database ─────────────────────────────────────────────────────────────────
 # sqlite3 is in Python stdlib – no pip install needed
