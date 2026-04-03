@@ -13,11 +13,11 @@ scipy>=1.11.0
 
 # ── Visualization ────────────────────────────────────────────────────────────
 plotly>=5.18.0
-kaleido>=0.2.1          # Plotly static image export (SVG/PDF/PNG)
+kaleido>=0.2.1        
 pillow>=10.0.0
 
 # ── Chemistry / Molecular ────────────────────────────────────────────────────
-rdkit>=2023.9.1          # pip install rdkit
+rdkit
 
 # ── Database ─────────────────────────────────────────────────────────────────
 # sqlite3 is in Python stdlib – no pip install needed
