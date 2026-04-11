@@ -18,6 +18,10 @@ pillow>=10.0.0
 
 # ── Chemistry / Molecular ────────────────────────────────────────────────────
 rdkit
+pubchempy>=1.0.4         # PubChem 名称检索
+py3Dmol>=2.1.0           # 3D 渲染（可选，模块内已用 HTML 组件兜底）
+ase>=3.23.0           # CIF 文件解析 (pip install ase)
+
 
 # ── Database ─────────────────────────────────────────────────────────────────
 # sqlite3 is in Python stdlib – no pip install needed
